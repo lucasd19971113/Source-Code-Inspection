@@ -9,7 +9,12 @@ public class Main {
         TicketMachine ticketMachine = new TicketMachine(0);
 
         ticketMachine.inserir(2);
+        ticketMachine.inserir(10);
 
+
+        System.out.println(ticketMachine.getSaldo());
+
+        System.out.println(ticketMachine.getTroco());
 
 
     }
