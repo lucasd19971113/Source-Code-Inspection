@@ -1,16 +1,12 @@
 package br.calebe.ticketmachine.core;
 
-
-import br.calebe.ticketmachine.exception.PapelMoedaInvalidaException;
-import br.calebe.ticketmachine.exception.SaldoInsuficienteException;
-
 public class Main {
     public static void main(String[] args) throws Exception {
         System.out.println("Menu");
-        TicketMachine ticketMachine = new TicketMachine(0);
+        TicketMachine ticketMachine = new TicketMachine(2);
 
-        ticketMachine.inserir(-12);
-        ticketMachine.inserir(-50);
+        ticketMachine.inserir(5);
+        ticketMachine.inserir(10);
 
 
         System.out.println(ticketMachine.getSaldo());

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Source Code Inspection/src"/>
+	<classpathentry kind="lib" path="lib/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="Source Code Inspection/out/production/Source Code Inspection"/>
+</classpath>
